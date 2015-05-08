@@ -80,6 +80,8 @@ import org.springframework.util.ReflectionUtils;
  * @see TestContextManager
  * @see AbstractJUnit4SpringContextTests
  * @see AbstractTransactionalJUnit4SpringContextTests
+ * @see org.springframework.test.context.junit4.rules.SpringClassRule
+ * @see org.springframework.test.context.junit4.rules.SpringMethodRule
  */
 @SuppressWarnings("deprecation")
 public class SpringJUnit4ClassRunner extends BlockJUnit4ClassRunner {
